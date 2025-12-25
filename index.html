@@ -7,5 +7,13 @@
 <body>
   <h1>CI/CD Demo with GitHub Actions</h1>
   <p>Deploy tự động khi push code</p>
+
+  <!-- test deploy -->
+  <p>Test CI/CD, GitHub Action - thời gian: <span id="deploy"></span></p>
+  <script>
+    document.getElementById("deploy-time").innerText =
+      new Date().toLocaleString();
+  </script>
+  
 </body>
 </html>
